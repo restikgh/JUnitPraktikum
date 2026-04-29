@@ -12,6 +12,7 @@
 
     <properties>
         <maven.compiler.release>17</maven.compiler.release>
+        <sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
 
     <!-- JUNIT -->
@@ -35,7 +36,7 @@
                 <version>3.0.0-M7</version>
             </plugin>
 
-            <!-- JACoCo (FIX FINAL biar Sonar kebaca coverage) -->
+            <!-- JACOCO FIX UNTUK SONAR -->
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
@@ -43,7 +44,7 @@
 
                 <executions>
 
-                    <!-- attach agent -->
+                    <!-- jalankan agent -->
                     <execution>
                         <id>prepare-agent</id>
                         <goals>
@@ -61,6 +62,12 @@
                     </execution>
 
                 </executions>
+
+                <!-- 🔥 INI PENTING: arahkan output report -->
+                <configuration>
+                    <outputDirectory>${project.build.directory}/site/jacoco</outputDirectory>
+                </configuration>
+
             </plugin>
 
         </plugins>
