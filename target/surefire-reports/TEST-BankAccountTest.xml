@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="BankAccountTest" time="0.047" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="BankAccountTest" time="0.04" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Gemma\OneDrive\Documents\NetBeansProjects\JUnitDemo\target\test-classes;C:\Users\Gemma\OneDrive\Documents\NetBeansProjects\JUnitDemo\target\classes;C:\Users\Gemma\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\Gemma\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\Gemma\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Gemma\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\Gemma\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Gemma\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\Gemma\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\Gemma\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\IT GRC\Documents\NetBeansProjects\JUnitDemo\target\test-classes;C:\Users\IT GRC\Documents\NetBeansProjects\JUnitDemo\target\classes;C:\Users\IT GRC\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\IT GRC\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\IT GRC\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\IT GRC\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\IT GRC\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\IT GRC\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\IT GRC\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\IT GRC\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,27 +15,27 @@
     <property name="user.country" value="ID"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\Gemma\AppData\Local\Temp\surefire4952417019745793016\surefirebooter-20260429084003852_3.jar C:\Users\Gemma\AppData\Local\Temp\surefire4952417019745793016 2026-04-29T08-40-03_409-jvmRun1 surefire-20260429084003852_1tmp surefire_0-20260429084003852_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\IT GRC\AppData\Local\Temp\surefire15769617466891389350\surefirebooter-20260429121242721_3.jar C:\Users\IT GRC\AppData\Local\Temp\surefire15769617466891389350 2026-04-29T12-12-41_137-jvmRun1 surefire-20260429121242721_1tmp surefire_0-20260429121242721_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="BankAccountTest"/>
-    <property name="surefire.test.class.path" value="C:\Users\Gemma\OneDrive\Documents\NetBeansProjects\JUnitDemo\target\test-classes;C:\Users\Gemma\OneDrive\Documents\NetBeansProjects\JUnitDemo\target\classes;C:\Users\Gemma\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\Gemma\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\Gemma\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Gemma\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\Gemma\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Gemma\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\Gemma\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\Gemma\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\IT GRC\Documents\NetBeansProjects\JUnitDemo\target\test-classes;C:\Users\IT GRC\Documents\NetBeansProjects\JUnitDemo\target\classes;C:\Users\IT GRC\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\IT GRC\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\IT GRC\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\IT GRC\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\IT GRC\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\IT GRC\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\IT GRC\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\IT GRC\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\Gemma"/>
+    <property name="user.home" value="C:\Users\IT GRC"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.version.date" value="2024-09-17"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\Gemma\OneDrive\Documents\NetBeansProjects\JUnitDemo"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="basedir" value="C:\Users\IT GRC\Documents\NetBeansProjects\JUnitDemo"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Gemma\AppData\Local\Temp\surefire4952417019745793016\surefirebooter-20260429084003852_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\IT GRC\AppData\Local\Temp\surefire15769617466891389350\surefirebooter-20260429121242721_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="23.0.1+11-39"/>
-    <property name="user.name" value="Gemma"/>
+    <property name="java.runtime.version" value="23+37-2369"/>
+    <property name="user.name" value="ICV"/>
     <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
@@ -43,24 +43,24 @@
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-23\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
-    <property name="localRepository" value="C:\Users\Gemma\.m2\repository"/>
+    <property name="localRepository" value="C:\Users\IT GRC\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\Gemma\AppData\Local\Temp\"/>
-    <property name="java.version" value="23.0.1"/>
-    <property name="user.dir" value="C:\Users\Gemma\OneDrive\Documents\NetBeansProjects\JUnitDemo"/>
+    <property name="java.io.tmpdir" value="C:\Users\ITGRC~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="23"/>
+    <property name="user.dir" value="C:\Users\IT GRC\Documents\NetBeansProjects\JUnitDemo"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\PostgreSQL\15\bin;C:\Program Files\nodejs\;C:\XAMMP\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\Gemma\AppData\Local\Microsoft\WindowsApps;C:\Users\Gemma\.dotnet\tools;C:\Program Files\PostgreSQL\15\bin;C:\Users\Gemma\AppData\Local\GitHubDesktop\bin;C:\Users\Gemma\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gemma\AppData\Roaming\npm;C:\Users\Gemma\AppData\Roaming\Composer\vendor\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\flutter\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-1.8\bin;C:\Program Files\dotnet\;C:\Users\IT GRC\AppData\Local\Programs\Python\Launcher\;C:\Users\IT GRC\AppData\Local\Microsoft\WindowsApps;C:\Users\IT GRC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\IT GRC\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\IT GRC\AppData\Local\Programs\Git\cmd;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="java.vm.version" value="23+37-2369"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testWithdrawBerhasil" classname="BankAccountTest" time="0.027"/>
-  <testcase name="testWithdrawGagal" classname="BankAccountTest" time="0.003"/>
+  <testcase name="testWithdrawBerhasil" classname="BankAccountTest" time="0.023"/>
+  <testcase name="testWithdrawGagal" classname="BankAccountTest" time="0.002"/>
   <testcase name="testDeposit" classname="BankAccountTest" time="0.001"/>
 </testsuite>
